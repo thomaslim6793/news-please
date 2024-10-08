@@ -8,6 +8,7 @@ class NewsArticle(object):
     date_publish = None
     description = None
     filename = None
+    image_urls = None
     image_url = None
     language = None
     localpath = None
@@ -42,6 +43,7 @@ class NewsArticle(object):
             'date_publish': self.date_publish,
             'description': self.description,
             'filename': self.filename,
+            'image_urls': self.image_urls,
             'image_url': self.image_url,
             'language': self.language,
             'localpath': self.localpath,

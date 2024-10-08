@@ -37,6 +37,7 @@ class NewspaperExtractor(AbstractExtractor):
         article_candidate.title = article.title
         article_candidate.description = article.meta_description
         article_candidate.text = article.text
+        article_candidate.images = article.images
         article_candidate.topimage = article.top_image
         article_candidate.author = article.authors
         if article.publish_date:

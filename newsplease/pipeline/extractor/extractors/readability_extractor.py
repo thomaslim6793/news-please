@@ -30,6 +30,7 @@ class ReadabilityExtractor(AbstractExtractor):
         article_candidate.title = doc.short_title()
         article_candidate.description = description
         article_candidate.text = self._text(item)
+        article_candidate.images = self._images(item)
         article_candidate.topimage = self._topimage(item)
         article_candidate.author = self._author(item)
         article_candidate.publish_date = self._publish_date(item)

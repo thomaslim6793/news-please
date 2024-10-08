@@ -74,6 +74,7 @@ class Extractor:
         item['article_title'] = article.title
         item['article_description'] = article.description
         item['article_text'] = article.text
+        item['article_images'] = article.images
         item['article_image'] = article.topimage
         item['article_author'] = article.author
         item['article_publish_date'] = article.publish_date

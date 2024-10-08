@@ -90,6 +90,7 @@ class Cleaner:
             article_candidate.title = self.do_cleaning(article_candidate.title)
             article_candidate.description = self.do_cleaning(article_candidate.description)
             article_candidate.text = self.do_cleaning(article_candidate.text)
+            article_candidate.images = self.do_cleaning(article_candidate.images)
             article_candidate.topimage = self.do_cleaning(article_candidate.topimage)
             article_candidate.author = self.do_cleaning(article_candidate.author)
             article_candidate.publish_date = self.do_cleaning(article_candidate.publish_date)

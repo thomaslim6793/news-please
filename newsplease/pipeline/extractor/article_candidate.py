@@ -6,6 +6,7 @@ class ArticleCandidate:
     title = None
     description = None
     text = None
+    images = None
     topimage = None
     author = None
     publish_date = None
